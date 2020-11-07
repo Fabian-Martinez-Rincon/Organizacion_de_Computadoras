@@ -1,0 +1,7 @@
+un flip flop asincronico sr y las entradas r en 1 y s en 1 son prohibidas porque : Porque las dos salidas toman el mismo valor (Porque motiva a que los dos valores sean cero)
+jk Se invierten al tener doble entrada de 1
+Cuando el jk tiene doble entrada de 1 se combierte en flipflop T
+
+Se tiene un flipflop sincronico que se activa con flanco ascendente. jk
+
+Solo cambia en el flanco de subida
