@@ -17,6 +17,25 @@
 ### Flags
 ***O*** Overflow , ***Z*** Zeros, ***S*** Signo, ***C*** Carry.
 
+### Direccionamiento.
+```Assembly
+;Directo
+  MOV AL,DATO ; AL = Contenido de la variable DATO
+  MOV AX,[1000H] ; AX = Contenido de la dirección DS:1000h
+  ADD AX,[35AFH] ; AX = Contenido de AX + contenido de la direccion DE:35AFh
+;Inmediato
+  MOV AL,3EH ; Copia en AL el valor hexadecimal 3E
+  MOV CX,10 ; Copia en CX el número 10 en decimal.
+  ADD AX,35AFH ;AX= contenido de AX + valor hexadecimal 35AF
+;Por Registro
+  MOV AX,BX ;Copia en AX el contenido del registro BX
+  MOV AL,CH ;Copia en AL el contenido del registro CH
+  ADD AX,BX ;AX=contenido de AX + contenido de BX
+;Indirecto por Registro
+  MOV [BX], AL ;Dato en la dirección contenido por BX = contenido de AL
+  MOV AX,[CX] ;Copia en AX el dato almacenado en la direccion contenida por CX
+  ADD AX,[BX] ;AX = AX + dato almacenado en la direccion contenida por BX
+```
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
 a) Explicar detalladamente qué hace cada instrucción MOV del programa anterior, en función de sus operandos y su modo de direccionamiento.
