@@ -1,10 +1,17 @@
 <h1 align="center">Organización de Computadoras </h1>
 
 ### Registros
-1) Ax
-2) Bx
-3) Cx
-4) Dx
+***Ax*** (Acumulador): empleado para operaciones aritméticas de cualquier tipo. También es usado en  las instrucciones de entrada y salida y en la manipulación de cadenas de caracteres.
+
+***Bx*** (Base): es el único registro de propósito general que se usa como un índice en el  direccionamiento. Se usa para indicar un desplazamiento aunque también en operaciones aritméticas.
+
+***Cx*** (Contador):es conocido como registro contador ya que puede contener un valor para controlar el número de veces que se repite una cierta operación o un ciclo de iteración.
+
+***Dx*** (Datos): algunas operaciones de E/S requieren su uso, y las operaciones de multiplicación y  división con cifras grandes suponen el funcionamiento de DX y AX trabajando juntos.
+
+### Registros Indice
+***SP*** (Stack Pointer): Apuntador de Pila. Proporciona un valor de desplazamiento que se refiere a la palabra actual que  está siendo procesada en la pila.
+***IP*** (Instruction Pointer):*** Es un registro de 16 bits que contiene el desplazamiento de la dirección  de la siguiente instrucción que se ejecutará.
 
  
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
