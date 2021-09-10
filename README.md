@@ -44,3 +44,27 @@ a) ¿Cuál es el estado de los FLAGS después de la ejecución de las instruccio
 b) ¿Qué cadenas binarias representan a NUM1 y NUM2 en la memoria del simulador? ¿En qué sistemas binarios están expresados estos valores?
 
 c) Confeccionar una tabla que indique para cada operación aritmética o lógica del programa, el valor de sus operandos, en qué registro o dirección de memoria se almacenan y el resultado obtenido luego de realizar cada operación
+
+```Assembly
+ORG 1000H
+  NUM0 DB 80H
+  NUM1 DB 200
+  NUM2 DB -1
+  Bts0 DB 01111111B
+  Bts1 DB 10101010B
+ORG 2000H
+  MOV AL, NUM0 ; AL = 80
+  ADD AL, AL ;80+80 en binario  C=1, O=1, S=0, Z=1
+  INC NUM1 ;200 + 1
+  MOV BH, NUM1 ;BH=C9h
+  MOV BL, BH ;BL=C9h
+  DEC BL ; BL = C8h
+  SUB BL, BH ;-1(decimal), FFFFH
+  MOV CH, Bts1
+  AND CH, Bts0 ;Bts1 and Bts2
+  NOT Bts0
+  OR CH, Bts0
+  XOR CH, 11111111B
+  HLT
+END
+```
