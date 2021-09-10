@@ -12,7 +12,7 @@
 ### Registros Indice
 ***SP*** (Stack Pointer): Apuntador de Pila. Proporciona un valor de desplazamiento que se refiere a la palabra actual que  está siendo procesada en la pila.
 
-***IP*** (Instruction Pointer):*** Es un registro de 16 bits que contiene el desplazamiento de la dirección  de la siguiente instrucción que se ejecutará.
+***IP*** (Instruction Pointer): Es un registro de 16 bits que contiene el desplazamiento de la dirección  de la siguiente instrucción que se ejecutará.
 
  
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
