@@ -2,7 +2,42 @@
 <div align="center">
 <img src="https://media.giphy.com/media/11LK0CKzYtkaic/giphy.gif?cid=ecf05e47q1771mvp65emyjz7yd60iq2d0jy5awmuqxxdrr6q&rid=giphy.gif&ct=g"/>
  </div>
-<br>
+
+
+<table>
+  <caption>Ejemplo de tabla</caption>
+  <thead>
+    <tr>
+      <th>Registro</th>
+      <th>Funcionamiento</th>
+      <th>Moneda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reino de España</td>
+      <td>Madrid</td>
+      <td>Euro</td>
+    </tr>
+    <tr>
+      <td>Estados Unidos Mexicanos</td>
+      <td>Ciudad de México</td>
+      <td>Peso</td>
+    </tr>
+    <tr>
+      <td>República Argentina</td>
+      <td>Buenos Aires</td>
+      <td>Peso</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>País</th>
+      <th>Capital</th>
+      <th>Moneda</th>
+    </tr>
+  </tfoot>
+</table>
 
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
