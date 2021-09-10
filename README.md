@@ -12,41 +12,27 @@ b) Confeccionar una tabla que contenga todas las instrucciones MOV anteriores, e
 
 c) Notar que durante la ejecución de algunas instrucciones MOV aparece en la pantalla del simulador un registro temporal denominado “ri”, en ocasiones acompañado por otro registro temporal denominado “id”. Explicar con detalle que función cumplen estos registros.
 ```Assembly
-ORG 1000H
-NUM1 DW 8000H ;16 bits, Parte baja
-     DW 0004H ;16 bits, Parte alta
-NUM2 DW 8000H
-     DW 0004H
-RESULT DW 0
-       DW 0
-BIEN DB ? ;100C
-MAL DB ? ;100D
-ORG 2000H
- 
- mov AX, NUM1 ;AX = Parte baja de num1 
- mov CX, NUM2 ;CX = Parte baja de num2
- 
- ADD AX, CX ;Los sumo
- 
- MOV RESULT,AX
- ;Guardo la parte baja de la suma en la parte baja del resultado
- MOV BX, OFFSET RESULT + 2;Me muevo a la direccion alta de Result
- 
- MOV BX, OFFSET NUM1 + 2 ;Me voy a la direccion alta de num1
- MOV AX,[BX] ;Ax = la parte alta de num1
- 
- MOV BX, OFFSET NUM2 + 2;Voy a la direccion alta de num2
- MOV CX,[BX] ;CX = Parte alta de num2
- 
- MOV BX, OFFSET RESULT + 2
- ADC [BX], AX ;Sumo la parte alta de num1 + el carry por si acaso
- ADC [BX], CX ;Sumo la parte alta de num2
- 
- ;Para comprobar de que no de Overflow y de que este bien
- JO SALIO_MAL
- MOV BIEN, 0FFH
- JMP FIN
- SALIO_MAL: MOV MAL, 0FFH
- FIN: HLT
-END
+;Variables
+org 1000h
+NUM0 DB 0CAH ;1000h
+NUM1 DB 0  ;1001h
+NUM2 DW ? ; 1002h y 1003h
+NUM3 DW 0ABCDH ;1004h y 1005h
+NUM4 DW ?  ;1006h y  1007h
+
+;Programa
+org 2000h
+mov BL, NUM0  ;BL = CA
+mov BH, 0FFH    ;BH = FF
+mov CH, BL      ;CH  = CA
+mov AX, BX     ; AX = BX(BL:CA,BH:FF)  = CA,FF
+mov NUM1, AL ;1001h = CA
+mov NUM2, 1234h ;1002h = 34h y 1003H = 12h
+mov BX, OFFSET NUM3 ;BX = 1004h
+mov DL, [BX] ;DL = CD (Lo que apunta 1004h)
+mov AX, [BX] ; AH=AB, AL=CD
+mov BX, 1006h ;BX = 1006h
+mov WORD PTR [BX], 0CDEFH ;1007h=CD, 1006h = EF
+HLT
+end
 ```
