@@ -3,8 +3,8 @@
 <img src="https://media.giphy.com/media/11LK0CKzYtkaic/giphy.gif?cid=ecf05e47q1771mvp65emyjz7yd60iq2d0jy5awmuqxxdrr6q&rid=giphy.gif&ct=g"/>
  </div>
 
-
-<table>
+<div>
+<table >
   <thead>
     <tr>
       <th>Registro</th>
@@ -31,7 +31,10 @@
   </tbody>
   
 </table>
-
+</div>
+ 
+ 
+ 
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
 a) Explicar detalladamente qué hace cada instrucción MOV del programa anterior, en función de sus operandos y su modo de direccionamiento.
