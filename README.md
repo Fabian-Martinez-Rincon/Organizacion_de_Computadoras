@@ -12,19 +12,20 @@
   <tbody>
     <tr>
       <td>AX</td>
-      <td>Madrid</td>
+      <td>(Acumulador): Empleado para operaciones aritméticas de cualquier tipo. También es usado en las instrucciones de entrada y salida y en la manipulación de cadenas de caracteres.</td>
     </tr>
     <tr>
       <td>BX</td>
-      <td>Ciudad de México</td>
+      <td> (Base): es el único registro de propósito general que se usa como un índice en el  direccionamiento. Se usa para indicar un desplazamiento aunque también en operaciones aritméticas.
+</td>
     </tr>
     <tr>
       <td>CX</td>
-      <td>Buenos Aires</td>
+      <td>(Contador): es conocido como registro contador ya que puede contener un valor para controlar  el número de veces que se repite una cierta operación o un ciclo de iteración.</td>
     </tr>
    <tr>
-      <td>CX</td>
-      <td>Buenos Aires</td>
+      <td>DX</td>
+      <td>(Datos): algunas operaciones de E/S requieren su uso, y las operaciones de multiplicación y  división con cifras grandes suponen el funcionamiento de DX y AX trabajando juntos.</td>
     </tr>
   </tbody>
   
