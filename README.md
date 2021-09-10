@@ -9,31 +9,31 @@
     <tr>
       <th>Registro</th>
       <th>Funcionamiento</th>
-      <th>Moneda</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Reino de España</td>
+      <td>AX</td>
       <td>Madrid</td>
-      <td>Euro</td>
+      <td></td>
     </tr>
     <tr>
-      <td>Estados Unidos Mexicanos</td>
+      <td>BX</td>
       <td>Ciudad de México</td>
-      <td>Peso</td>
+      <td></td>
     </tr>
     <tr>
-      <td>República Argentina</td>
+      <td>CX</td>
       <td>Buenos Aires</td>
-      <td>Peso</td>
+      <td></td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <th>País</th>
+      <th>DX</th>
       <th>Capital</th>
-      <th>Moneda</th>
+      <th></th>
     </tr>
   </tfoot>
 </table>
