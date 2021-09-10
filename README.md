@@ -5,7 +5,6 @@
 
 
 <table>
-  <caption>Ejemplo de tabla</caption>
   <thead>
     <tr>
       <th>Registro</th>
