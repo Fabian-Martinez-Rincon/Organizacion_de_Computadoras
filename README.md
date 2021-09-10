@@ -11,6 +11,7 @@
 
 ### Registros Indice
 ***SP*** (Stack Pointer): Apuntador de Pila. Proporciona un valor de desplazamiento que se refiere a la palabra actual que  está siendo procesada en la pila.
+
 ***IP*** (Instruction Pointer):*** Es un registro de 16 bits que contiene el desplazamiento de la dirección  de la siguiente instrucción que se ejecutará.
 
  
