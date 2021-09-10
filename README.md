@@ -14,7 +14,9 @@
 
 ***IP*** (Instruction Pointer): Es un registro de 16 bits que contiene el desplazamiento de la dirección  de la siguiente instrucción que se ejecutará.
 
- 
+### Flags
+***O*** Overflow , ***Z*** Zeros, ***S*** Signo, ***C*** Carry.
+
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
 a) Explicar detalladamente qué hace cada instrucción MOV del programa anterior, en función de sus operandos y su modo de direccionamiento.
