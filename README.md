@@ -28,14 +28,13 @@
       <td>Buenos Aires</td>
       <td></td>
     </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th>DX</th>
-      <th>Capital</th>
-      <th></th>
+   <tr>
+      <td>CX</td>
+      <td>Buenos Aires</td>
+      <td></td>
     </tr>
-  </tfoot>
+  </tbody>
+  
 </table>
 
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
