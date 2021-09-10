@@ -9,29 +9,24 @@
     <tr>
       <th>Registro</th>
       <th>Funcionamiento</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>AX</td>
       <td>Madrid</td>
-      <td></td>
     </tr>
     <tr>
       <td>BX</td>
       <td>Ciudad de México</td>
-      <td></td>
     </tr>
     <tr>
       <td>CX</td>
       <td>Buenos Aires</td>
-      <td></td>
     </tr>
    <tr>
       <td>CX</td>
       <td>Buenos Aires</td>
-      <td></td>
     </tr>
   </tbody>
   
