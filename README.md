@@ -4,7 +4,7 @@
  </div>
 <br>
 
-1- El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
+1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
 a) Explicar detalladamente qué hace cada instrucción MOV del programa anterior, en función de sus operandos y su modo de direccionamiento.
 
@@ -36,7 +36,7 @@ mov WORD PTR [BX], 0CDEFH ;1007h=CD, 1006h = EF
 HLT
 end
 ```
-2- El Programa 2 utiliza diferentes instrucciones de procesamiento de datos (instrucciones aritméticas y lógicas). Analice y ejecute el comportamiento de ellas en el MSX88.
+2 - El Programa 2 utiliza diferentes instrucciones de procesamiento de datos (instrucciones aritméticas y lógicas). Analice y ejecute el comportamiento de ellas en el MSX88.
 a) ¿Cuál es el estado de los FLAGS después de la ejecución de las instrucciones ADD y SUB del programa anterior? Justificar el estado de cada uno de ellos (¿por qué quedaron en 0 ó en 1?).
 
 ¿Dan alguna indicación acerca de la correctitud de los resultados?
@@ -68,3 +68,11 @@ ORG 2000H
   HLT
 END
 ```
+3 - El Programa 3 implementa un contador utilizando una instrucción de transferencia de control. Analice el funcionamiento de cada instrucción, poniendo atención en las del lazo repetitivo que provoca la cuenta.
+
+a) ¿Cuántas veces se ejecuta el lazo? ¿De qué variables depende esto en el caso general?
+
+b) Analice y ejecute el programa reemplazando la instrucción de salto condicional JNZ por las siguientes, indicando en cada caso el contenido final del registro AL:
+1. JS
+2. JZ
+3. JMP
