@@ -76,3 +76,19 @@ b) Analice y ejecute el programa reemplazando la instrucción de salto condicion
 1. JS
 2. JZ
 3. JMP
+
+```Assembly
+
+ORG 1000H
+  INI DB 0
+  FIN DB 15
+ORG 2000H
+  MOV AL, INI ;0
+  MOV AH, FIN ;Fh (15)
+  SUMA: INC AL; AL + 1
+  CMP AL, AH ;FIN - AL
+  JNZ SUMA ;Se repite hasta que sea 0
+  HLT ;Termina con AL = 15
+END
+
+```
