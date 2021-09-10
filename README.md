@@ -36,3 +36,11 @@ mov WORD PTR [BX], 0CDEFH ;1007h=CD, 1006h = EF
 HLT
 end
 ```
+2- El Programa 2 utiliza diferentes instrucciones de procesamiento de datos (instrucciones aritméticas y lógicas). Analice y ejecute el comportamiento de ellas en el MSX88.
+a) ¿Cuál es el estado de los FLAGS después de la ejecución de las instrucciones ADD y SUB del programa anterior? Justificar el estado de cada uno de ellos (¿por qué quedaron en 0 ó en 1?).
+
+¿Dan alguna indicación acerca de la correctitud de los resultados?
+
+b) ¿Qué cadenas binarias representan a NUM1 y NUM2 en la memoria del simulador? ¿En qué sistemas binarios están expresados estos valores?
+
+c) Confeccionar una tabla que indique para cada operación aritmética o lógica del programa, el valor de sus operandos, en qué registro o dirección de memoria se almacenan y el resultado obtenido luego de realizar cada operación
