@@ -17,25 +17,19 @@
 ### Flags
 ***O*** Overflow , ***Z*** Zeros, ***S*** Signo, ***C*** Carry.
 
-### Direccionamiento.
-```Assembly
-;Directo
-  MOV AL,DATO ; AL = Contenido de la variable DATO
-  MOV AX,[1000H] ; AX = Contenido de la dirección DS:1000h
-  ADD AX,[35AFH] ; AX = Contenido de AX + contenido de la direccion DE:35AFh
-;Inmediato
-  MOV AL,3EH ; Copia en AL el valor hexadecimal 3E
-  MOV CX,10 ; Copia en CX el número 10 en decimal.
-  ADD AX,35AFH ;AX= contenido de AX + valor hexadecimal 35AF
-;Por Registro
-  MOV AX,BX ;Copia en AX el contenido del registro BX
-  MOV AL,CH ;Copia en AL el contenido del registro CH
-  ADD AX,BX ;AX=contenido de AX + contenido de BX
-;Indirecto por Registro
-  MOV [BX], AL ;Dato en la dirección contenido por BX = contenido de AL
-  MOV AX,[CX] ;Copia en AX el dato almacenado en la direccion contenida por CX
-  ADD AX,[BX] ;AX = AX + dato almacenado en la direccion contenida por BX
-```
+![6 invertida](https://user-images.githubusercontent.com/55964635/132963352-2ac465f3-26da-48a4-b015-8dd6922f12c3.png)
+
+
+![1 invertida](https://user-images.githubusercontent.com/55964635/132963308-a1bb0bc5-99aa-43e3-9f96-a7c8725118dc.png)
+
+![2 invertida](https://user-images.githubusercontent.com/55964635/132963312-73e4567f-bc1a-44bc-88a8-1fd0e1c5ed89.png)
+
+![3 invertida](https://user-images.githubusercontent.com/55964635/132963319-23d279ac-7f7b-4217-9d6c-9d922749ebfa.png)
+
+![4 invertida](https://user-images.githubusercontent.com/55964635/132963321-d6d539f6-616e-45e3-a04b-f80ef3999fb6.png)
+
+![5 invertida](https://user-images.githubusercontent.com/55964635/132963323-c116eb1f-12fd-4124-ac96-28dfc96cbbba.png)
+
 1 - El Programa 1 utiliza una instrucción de transferencia de datos (instrucción MOV) con diferentes modos de direccionamiento para hacer referencia a sus operandos. Ejecutar y analizar cada instrucción en el Simulador MSX88 observando el flujo de información a través del BUS DE DATOS, el BUS DE DIRECCIONES, el BUS DE CONTROL, el contenido de los REGISTROS, de las posiciones de MEMORIA accedidas, de las operaciones en la ALU, etc...
 
 a) Explicar detalladamente qué hace cada instrucción MOV del programa anterior, en función de sus operandos y su modo de direccionamiento.
