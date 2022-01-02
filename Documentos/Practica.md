@@ -4,6 +4,7 @@ Indice
 <!--ts-->
    * [Punto Fijo](#Punto_Fijo)
      * [BSS](#BSS)
+     * [BSS con Parte fraccionaria](#BSS_con_Parte_fraccionaria)
    
    
 Punto_Fijo
@@ -24,3 +25,6 @@ Si mi sistema de representación tiene ***N*** bits
 ```
 Nota: El punto fijo no fraccionario siempre va a ser 1 
 ```
+
+BSS_con_Parte_fraccionaria
+--------------------------
