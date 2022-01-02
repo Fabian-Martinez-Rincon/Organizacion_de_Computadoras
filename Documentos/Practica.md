@@ -103,6 +103,7 @@ Binario_Con_Signo
 Dado ***N*** bits se usa
 - El bit más significativo para el signo (0 +, 1 -)
 - El resto para el nro
+- -27 con 8 bits
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147886016-28e00247-1ca2-4033-ae05-2df71856660d.png)
 
