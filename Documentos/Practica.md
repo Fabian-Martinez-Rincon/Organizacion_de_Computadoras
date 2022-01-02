@@ -92,5 +92,15 @@ Operaciones_Aritmeticas
 
 Suma
 ----
+- La suma es posicional
+- Si la suma supera el maximo numero representable se genera un acarreo como en el sistema decimal
+
+![Imagen6](https://user-images.githubusercontent.com/55964635/147872218-fe191e51-9a19-403f-9f79-1a25d4f04c50.png)
+
+Carry: Es 1 si el resultado de la suma supera el limite maximo
+
+Zero: es 1 si el resultado es igual a 0
+
+
 Resta
 -----
