@@ -111,3 +111,8 @@ Resta
 
 Binary_Coded_Hexadecimal
 ========================
+- Digitos hexadecimales en binario
+- Para representar un digito hexadecimal se utilizara siempre 4 bits
+- Se asocia cada digito con su valor en binario puro
+
+![Imagen7](https://user-images.githubusercontent.com/55964635/147872700-472e0a37-ccfb-4606-a259-e4933681d5b7.png)
