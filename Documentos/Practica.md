@@ -104,3 +104,4 @@ Zero: Es 1 si el resultado es igual a 0
 
 Resta
 -----
+- Igual que la suma. Pero con el flago ***borrow***
