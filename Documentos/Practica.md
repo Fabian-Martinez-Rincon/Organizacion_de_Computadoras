@@ -142,4 +142,7 @@ BCD_Desempaquetado
 
 ![Imagen7 (1)](https://user-images.githubusercontent.com/55964635/147873137-38dc0f51-3e65-4d28-b5a0-6bbebf5a5db5.png)
 
+- Con signo
+
+![Imagen7 (1)](https://user-images.githubusercontent.com/55964635/147873165-573b4191-3f96-4a44-b549-1d0d762243d1.png)
 
