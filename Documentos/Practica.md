@@ -106,6 +106,9 @@ Dado ***N*** bits se usa
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147886016-28e00247-1ca2-4033-ae05-2df71856660d.png)
 
+### Rango
+
+![Imagen2](https://user-images.githubusercontent.com/55964635/147886085-3b48ca13-9514-4495-8116-b2eee926e5dd.png)
 
 
 Operaciones_Aritmeticas
