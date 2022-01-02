@@ -111,7 +111,8 @@ Resta
 -----
 - Igual que la suma. Pero con el flago ***borrow***
 
-![Imagen7](https://user-images.githubusercontent.com/55964635/147872559-f2346f70-2953-4a1d-8035-40f65eb38597.png)
+
+![Imagen2](https://user-images.githubusercontent.com/55964635/147883270-dfd3ab3e-3776-4df0-8459-91e7490c4a8f.png)
 
 Binary_Coded_Hexadecimal
 ========================
