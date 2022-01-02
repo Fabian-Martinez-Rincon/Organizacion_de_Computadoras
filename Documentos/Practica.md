@@ -80,5 +80,6 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 
 ![Imagen3](https://user-images.githubusercontent.com/55964635/147871918-9f07fa10-a363-4eeb-a77f-17fcc4694efe.png)
 
+- Se calculan los exponentes y se suman las partes que tienen el bit en 1 (Marcados en verde)
 
-
+![Imagen4 (1)](https://user-images.githubusercontent.com/55964635/147871980-4f1d17c4-6bd8-4ef9-bc3a-b967ff971cf6.png)
