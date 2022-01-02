@@ -99,7 +99,7 @@ Suma
 
 Carry: Es 1 si el resultado de la suma supera el limite maximo
 
-Zero: es 1 si el resultado es igual a 0
+Zero: Es 1 si el resultado es igual a 0
 
 
 Resta
