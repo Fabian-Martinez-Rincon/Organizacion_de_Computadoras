@@ -28,3 +28,12 @@ Nota: El punto fijo no fraccionario siempre va a ser 1
 
 BSS_con_Parte_fraccionaria
 --------------------------
+- Supongamos que queremos representar el 15,25 en binario.
+- La parte entera se hace de forma normal.
+- Con la parte fraccionaria se debe multiplicar por 2 hasta que ya no tenga más bits de representacion, o la parte fraccionaria sea 0.
+
+```15``` = ```111```
+
+```0,25 x 2``` = ```0,50```
+
+```0,50 x 2``` = ```1.0```
