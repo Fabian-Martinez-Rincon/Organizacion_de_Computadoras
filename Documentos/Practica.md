@@ -194,3 +194,8 @@ Son cadenas de bits que aplicamos a otra cadena. Los usas m√°s comunes de las m√
 - Los 1s en un ```OR``` ***fuerzan a 1*** cualquier bit
 - Los 0s en un ```AND``` ***fuerzan a 0*** cualquier bit
 - Los 1s en un ```XOR``` ***Invierten*** cualquier bit
+
+### Ejemplos
+
+![Imagen5](https://user-images.githubusercontent.com/55964635/147884536-ec3e8925-5342-4dc2-8679-d81fe93a3542.png)
+
