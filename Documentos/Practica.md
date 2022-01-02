@@ -201,5 +201,6 @@ Son cadenas de bits que aplicamos a otra cadena. Los usas m√°s comunes de las m√
 
 ![Imagen6](https://user-images.githubusercontent.com/55964635/147884570-7192c54b-145a-4d2c-a190-cef817c45db5.png)
 
+![Imagen7](https://user-images.githubusercontent.com/55964635/147884662-d27a2bca-6fde-44e7-8066-96712394cfa1.png)
 
 
