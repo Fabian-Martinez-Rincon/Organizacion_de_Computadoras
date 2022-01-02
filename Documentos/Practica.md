@@ -15,3 +15,7 @@ Representar el número ```1011``` en notacion decimal
 
 ![Imagen11](https://user-images.githubusercontent.com/55964635/147869783-91371f3a-cfd4-4644-acd1-d6adad7d80e1.png)
 
+Si mi sistema de representación tiene ***N*** bits
+
+- Puedo representar 2^***N*** números
+- Rango de números: [0 ; 2 ^ ***N*** - 1]
