@@ -174,3 +174,5 @@ En el ultimo caso completamos con 0 para que siempre queden bytes completos
 
 Compuertas_Logicas
 ==================
+![puertas-logicas](https://user-images.githubusercontent.com/55964635/147883811-80d097e4-71e4-4025-95d3-bfb81fc94b22.png)
+
