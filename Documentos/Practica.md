@@ -3,7 +3,7 @@ Indice
 
 <!--ts-->
    * [Punto Fijo](#Punto_Fijo)
-     * [BSS](#BSS)
+     * [BSS](#Binario_Sin_Signo)
      * [BSS con Parte fraccionaria](#BSS_con_Parte_fraccionaria)
    
    
