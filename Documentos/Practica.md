@@ -8,6 +8,7 @@ Indice
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
+   * [BCH](#Binary_Coded_Hexadecimal) 
    
    
 Punto_Fijo
@@ -108,3 +109,5 @@ Resta
 
 ![Imagen7](https://user-images.githubusercontent.com/55964635/147872559-f2346f70-2953-4a1d-8035-40f65eb38597.png)
 
+Binary_Coded_Hexadecimal
+========================
