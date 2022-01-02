@@ -76,4 +76,9 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 
 ![Imagen2](https://user-images.githubusercontent.com/55964635/147870943-4ffe234b-c665-4fca-a1f6-1c8ed6940cb3.png)
 
+- Se calcula igual que la parte entera, pero los bits a la derecha de la coma tienen exponentes negativos
+
+![Imagen3](https://user-images.githubusercontent.com/55964635/147871918-9f07fa10-a363-4eeb-a77f-17fcc4694efe.png)
+
+
 
