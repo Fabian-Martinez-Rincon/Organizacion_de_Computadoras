@@ -12,6 +12,7 @@ Indice
    * [BCD](#Binary_Coded_Decimal)
      * [BCD Desempaquetado](#BCD_Desempaquetado)
      * [BCD Empaquetado](#BCD_Empaquetado)
+   * [Compuertas Logicas](#Compuertas_Logicas)
    
    
 Punto_Fijo
@@ -170,3 +171,6 @@ El signo lleva la misma codificacion que el BCD Desempaquetado:
 ```
 En el ultimo caso completamos con 0 para que siempre queden bytes completos
 ```
+
+Compuertas_Logicas
+==================
