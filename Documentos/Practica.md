@@ -199,3 +199,7 @@ Son cadenas de bits que aplicamos a otra cadena. Los usas m√°s comunes de las m√
 
 ![Imagen5](https://user-images.githubusercontent.com/55964635/147884536-ec3e8925-5342-4dc2-8679-d81fe93a3542.png)
 
+![Imagen6](https://user-images.githubusercontent.com/55964635/147884570-7192c54b-145a-4d2c-a190-cef817c45db5.png)
+
+
+
