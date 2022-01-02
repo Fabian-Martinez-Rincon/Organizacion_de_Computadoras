@@ -176,3 +176,8 @@ Compuertas_Logicas
 ==================
 ![puertas-logicas](https://user-images.githubusercontent.com/55964635/147883811-80d097e4-71e4-4025-95d3-bfb81fc94b22.png)
 
+Reglas
+------
+
+![Imagen2](https://user-images.githubusercontent.com/55964635/147883919-81dbe448-0f79-4869-913c-04e246657956.png)
+
