@@ -9,6 +9,8 @@ Indice
      * [Suma](#Suma)
      * [Resta](#Resta) 
    * [BCH](#Binary_Coded_Hexadecimal) 
+   * [BCD](#Binary_Coded_Decimal)
+     * [BCD Desempaquetado](#BCD_Desempaquetado)
    
    
 Punto_Fijo
@@ -116,3 +118,15 @@ Binary_Coded_Hexadecimal
 - Se asocia cada digito con su valor en binario puro
 
 ![Imagen7](https://user-images.githubusercontent.com/55964635/147872700-472e0a37-ccfb-4606-a259-e4933681d5b7.png)
+
+Binary_Coded_Decimal
+====================
+- Digitos decimales en binario
+- Para representar un digito en decimal se requeriran 4 bits
+- Se asocia cada digito con su valor binario puro
+- Hay dos tipos
+  - BCD ***desenpaquetado:*** 1 byte por digito
+  - BCD ***empaquetado:*** 4 bits por digito
+
+BCD_Desempaquetado
+------------------
