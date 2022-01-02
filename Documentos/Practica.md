@@ -189,4 +189,8 @@ Son cadenas de bits que aplicamos a otra cadena. Los usas más comunes de las m�
 
 ![Sin título-1](https://user-images.githubusercontent.com/55964635/147884239-1a76b67e-4b59-42ef-a97e-8aa2fe0d30cc.png)
 
+***Importante!*** Para tener en cuenta:
 
+- Los 1s en un ```OR``` ***fuerzan a 1*** cualquier bit
+- Los 0s en un ```AND``` ***fuerzan a 0*** cualquier bit
+- Los 1s en un ```XOR``` ***Invierten*** cualquier bit
