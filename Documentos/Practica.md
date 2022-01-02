@@ -5,6 +5,7 @@ Indice
    * [Punto Fijo](#Punto_Fijo)
      * [BSS](#Binario_Sin_Signo)
      * [BSS con Parte fraccionaria](#BSS_con_Parte_fraccionaria)
+     * [BCS](#Binario_Con_Signo)
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
