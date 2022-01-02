@@ -5,6 +5,9 @@ Indice
    * [Punto Fijo](#Punto_Fijo)
      * [BSS](#Binario_Sin_Signo)
      * [BSS con Parte fraccionaria](#BSS_con_Parte_fraccionaria)
+   * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
+     * [Suma](#Suma)
+     * [Resta](#Resta) 
    
    
 Punto_Fijo
@@ -83,3 +86,11 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 - Se calculan los exponentes y se suman las partes que tienen el bit en 1 (Marcados en verde)
 
 ![Imagen4 (1)](https://user-images.githubusercontent.com/55964635/147871980-4f1d17c4-6bd8-4ef9-bc3a-b967ff971cf6.png)
+
+Operaciones_Aritmeticas
+=======================
+
+Suma
+----
+Resta
+-----
