@@ -11,6 +11,7 @@ Indice
    * [BCH](#Binary_Coded_Hexadecimal) 
    * [BCD](#Binary_Coded_Decimal)
      * [BCD Desempaquetado](#BCD_Desempaquetado)
+     * [BCD Empaquetado](#BCD_Empaquetado)
    
    
 Punto_Fijo
@@ -153,4 +154,11 @@ BCD_Desempaquetado
 
 ![147873165-573b4191-3f96-4a44-b549-1d0d762243d1](https://user-images.githubusercontent.com/55964635/147883359-bb03075f-e904-4155-9b23-c174af704a15.png)
 
+BCD_Empaquetado
+---------------
+- 4 bits (medio byte) por digito:
+- Para manejar valores con ***signo*** se utilizan ***los 4 bits menos significativos***
 
+El signo lleva la misma codificacion que el BCD Desempaquetado:
+- C +
+- D -
