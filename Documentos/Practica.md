@@ -19,3 +19,8 @@ Si mi sistema de representación tiene ***N*** bits
 
 - Puedo representar 2^***N*** números
 - Rango de números: [0 ; 2 ^ ***N*** - 1]
+- Resolución: anterior al menor - el menor
+
+```
+Nota: El punto fijo no fraccionario siempre va a ser 1 
+```
