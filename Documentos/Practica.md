@@ -71,3 +71,9 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 </td>
 </tr>
  </table>
+ 
+- Para representar numeros decimales de forma fraccionaria simplemente se utiliza la coma con los binarios 
+
+![Imagen2](https://user-images.githubusercontent.com/55964635/147870943-4ffe234b-c665-4fca-a1f6-1c8ed6940cb3.png)
+
+
