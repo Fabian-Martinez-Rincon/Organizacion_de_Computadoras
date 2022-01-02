@@ -137,3 +137,9 @@ BCD_Desempaquetado
  - ```+``` 1100 (la ``C`` en hexadecimal) 
  - ```-``` 1101 (la ``D`` en hexadecimal) 
  - El signo ***solo se pone en el ultimo digito***. El resto se rellena con 1111 (F)
+
+- Sin signo
+
+![Imagen7 (1)](https://user-images.githubusercontent.com/55964635/147873137-38dc0f51-3e65-4d28-b5a0-6bbebf5a5db5.png)
+
+
