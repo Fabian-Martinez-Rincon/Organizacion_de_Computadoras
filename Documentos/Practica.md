@@ -32,6 +32,16 @@ BSS_con_Parte_fraccionaria
 - La parte entera se hace de forma normal.
 - Con la parte fraccionaria se debe multiplicar por 2 hasta que ya no tenga más bits de representacion, o la parte fraccionaria sea 0.
 
+
+### 4 bits Parte entera y 3 bits en la parte fraccionaria
+
+<table>
+<tr>
+<td> 15,25 </td> <td> 15,0625  </td>
+</tr>
+<tr>
+<td>
+
 ```15``` = ```111```
 
 ```0,25 x 2``` = ```0,50```
@@ -39,3 +49,25 @@ BSS_con_Parte_fraccionaria
 ```0,50 x 2``` = ```1.0```
 
 ```15,25``` = ```1111,01```
+  
+  
+</td>
+<td>
+
+```15``` = ```111```
+
+```0,625 x 2``` = ```0,125```
+
+```0,125 x 2``` = ```0,25```
+  
+```0,25 x 2``` = ```0,50```
+
+  
+Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria  
+
+  
+```15,0625``` = ```1111,000```
+ 
+</td>
+</tr>
+ </table>
