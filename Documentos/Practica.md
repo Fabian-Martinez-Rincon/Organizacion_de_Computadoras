@@ -80,11 +80,12 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
  
 - Para representar numeros decimales de forma fraccionaria simplemente se utiliza la coma con los binarios 
 
-![Imagen2](https://user-images.githubusercontent.com/55964635/147870943-4ffe234b-c665-4fca-a1f6-1c8ed6940cb3.png)
+![Imagen2](https://user-images.githubusercontent.com/55964635/147873427-8c7341a7-3ed1-4ae0-a4a4-a54cef6fff79.png)
 
 - Se calcula igual que la parte entera, pero los bits a la derecha de la coma tienen exponentes negativos
 
-![Imagen3](https://user-images.githubusercontent.com/55964635/147871918-9f07fa10-a363-4eeb-a77f-17fcc4694efe.png)
+![Imagen2](https://user-images.githubusercontent.com/55964635/147873450-f7dd21f1-adf8-4d45-9bf4-d11c105758ea.png)
+
 
 - Se calculan los exponentes y se suman las partes que tienen el bit en 1 (Marcados en verde)
 
