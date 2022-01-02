@@ -98,6 +98,16 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 
 ![Imagen2](https://user-images.githubusercontent.com/55964635/147883165-ee8c1eae-a70b-4604-8c0f-1469bf0b5a90.png)
 
+Binario_Con_Signo
+=================
+Dado ***N*** bits se usa
+- El bit más significativo para el signo (0 +, 1 -)
+- El resto para el nro
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147886016-28e00247-1ca2-4033-ae05-2df71856660d.png)
+
+
+
 Operaciones_Aritmeticas
 =======================
 
