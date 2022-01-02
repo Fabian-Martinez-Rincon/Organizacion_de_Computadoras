@@ -111,6 +111,16 @@ Dado ***N*** bits se usa
 
 ![Imagen2](https://user-images.githubusercontent.com/55964635/147886085-3b48ca13-9514-4495-8116-b2eee926e5dd.png)
 
+Complemento_a_1
+===============
+- Representar el ***-9*** en ***Ca1*** en un sistema de 5 bits
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147886647-71847d67-405d-4ba4-bc97-05bd846e44ce.png)
+
+### Rango
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147886696-44196d07-caef-4b5d-aa4e-6119aaf7979d.png)
+
 
 Operaciones_Aritmeticas
 =======================
