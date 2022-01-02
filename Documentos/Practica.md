@@ -89,7 +89,7 @@ Tengo que frenar ya que solo tengo 3 bits para representar la parte fraccionaria
 
 - Se calculan los exponentes y se suman las partes que tienen el bit en 1 (Marcados en verde)
 
-![Imagen4 (1)](https://user-images.githubusercontent.com/55964635/147871980-4f1d17c4-6bd8-4ef9-bc3a-b967ff971cf6.png)
+![Imagen2](https://user-images.githubusercontent.com/55964635/147883165-ee8c1eae-a70b-4604-8c0f-1469bf0b5a90.png)
 
 Operaciones_Aritmeticas
 =======================
@@ -99,7 +99,8 @@ Suma
 - La suma es posicional
 - Si la suma supera el maximo numero representable se genera un acarreo como en el sistema decimal
 
-![Imagen6](https://user-images.githubusercontent.com/55964635/147872218-fe191e51-9a19-403f-9f79-1a25d4f04c50.png)
+![147869783-91371f3a-cfd4-4644-acd1-d6adad7d80e1](https://user-images.githubusercontent.com/55964635/147883212-201fa70b-8830-4c5d-b97b-14923bf5b2eb.png)
+
 
 Carry: Es 1 si el resultado de la suma supera el limite maximo
 
