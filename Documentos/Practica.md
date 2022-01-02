@@ -13,6 +13,7 @@ Indice
      * [BCD Desempaquetado](#BCD_Desempaquetado)
      * [BCD Empaquetado](#BCD_Empaquetado)
    * [Compuertas Logicas](#Compuertas_Logicas)
+   * [Mascaras](#Mascaras)
    
    
 Punto_Fijo
@@ -181,3 +182,5 @@ Reglas
 
 ![Imagen2](https://user-images.githubusercontent.com/55964635/147883919-81dbe448-0f79-4869-913c-04e246657956.png)
 
+Mascaras
+========
