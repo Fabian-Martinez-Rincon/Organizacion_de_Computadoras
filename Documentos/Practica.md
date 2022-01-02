@@ -120,7 +120,10 @@ Binary_Coded_Hexadecimal
 - Para representar un digito hexadecimal se utilizara siempre 4 bits
 - Se asocia cada digito con su valor en binario puro
 
-![Imagen7](https://user-images.githubusercontent.com/55964635/147872700-472e0a37-ccfb-4606-a259-e4933681d5b7.png)
+
+
+![147869783-91371f3a-cfd4-4644-acd1-d6adad7d80e1](https://user-images.githubusercontent.com/55964635/147883313-25731858-8731-4d41-b80d-8179a6114ca2.png)
+
 
 Binary_Coded_Decimal
 ====================
