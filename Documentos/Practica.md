@@ -113,6 +113,13 @@ Dado ***N*** bits se usa
 
 Complemento_a_1
 ===============
+- En el caso de que el bit de signo sea positivo (0) se ***interpreta como BSS normal***
+- Si es ***negativo (1)*** hay que:
+
+1) Invertir todos los bits
+2) Interpretar como BSS
+3) Ponerle el signo negativo a la interpretación
+
 - Representar el ***-9*** en ***Ca1*** en un sistema de 5 bits
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147886647-71847d67-405d-4ba4-bc97-05bd846e44ce.png)
@@ -120,6 +127,23 @@ Complemento_a_1
 ### Rango
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147886696-44196d07-caef-4b5d-aa4e-6119aaf7979d.png)
+
+Complemento_a_2
+===============
+- En el caso de que el bit de signo sea positivo (0) se ***interpreta como BSS normal***
+- Si es negativo (1) hay que:
+1) Invertir todos los bits
+2) Sumar 1 (única diferencia con Ca1)
+3) Interpretar como BSS
+4) Ponerle el signo negativo a la interpretación
+
+- Representar el -9 en Ca2 en un sistema de 5 bits
+
+![Imagen2](https://user-images.githubusercontent.com/55964635/147886912-53a50b41-20aa-4e5a-96f1-94e1314e734c.png)
+
+### Rango
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147887133-d7286b9b-5342-4e36-b394-8de83028d5b8.png)
 
 
 Operaciones_Aritmeticas
