@@ -105,3 +105,6 @@ Zero: Es 1 si el resultado es igual a 0
 Resta
 -----
 - Igual que la suma. Pero con el flago ***borrow***
+
+![Imagen7](https://user-images.githubusercontent.com/55964635/147872559-f2346f70-2953-4a1d-8035-40f65eb38597.png)
+
