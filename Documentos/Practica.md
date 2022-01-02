@@ -130,3 +130,10 @@ Binary_Coded_Decimal
 
 BCD_Desempaquetado
 ------------------
+8 bits (1 byte) por digito:
+
+- Los 4 menos significativos numero
+- Los 4 mas significativos signo
+ - ```+``` 1100 (la ``C`` en hexadecimal) 
+ - ```-``` 1101 (la ``D`` en hexadecimal) 
+ - El signo ***solo se pone en el ultimo digito***. El resto se rellena con 1111 (F)
