@@ -162,3 +162,11 @@ BCD_Empaquetado
 El signo lleva la misma codificacion que el BCD Desempaquetado:
 - C +
 - D -
+
+- Con signo
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147883581-981887c8-0be8-45d9-8773-d72d3f01c16c.png)
+
+```
+En el ultimo caso completamos con 0 para que siempre queden bytes completos
+```
