@@ -10,6 +10,7 @@ Indice
      * [Ca2](#Complemento_a_2)
      * [Ex2](#Exceso)
    * [Punto Flotante](#Punto_Flotante) 
+     * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -196,9 +197,19 @@ Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** 
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147985285-1ceead6c-8666-4f7c-918f-566da675c76e.png)
 
+Mantisa_Fraccionaria
+--------------------
+Puede ser posible que la mantisa sea fraccionaria.
+
+En ese caso, lo unico que se agrega es un 0, delante de la Mantisa y se interpreta como binario fraccionario
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147985969-e85741b0-208a-4382-9f05-e68ba183cd7d.png)
+
+
 
 Operaciones_Aritmeticas
 =======================
+
 
 Suma
 ----
