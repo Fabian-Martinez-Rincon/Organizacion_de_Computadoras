@@ -18,6 +18,7 @@ Indice
      * [BCD Empaquetado](#BCD_Empaquetado)
    * [Compuertas Logicas](#Compuertas_Logicas)
    * [Mascaras](#Mascaras)
+   * [Flags](#Flags)
    
    
 Punto_Fijo
@@ -284,5 +285,16 @@ Son cadenas de bits que aplicamos a otra cadena. Los usas m√°s comunes de las m√
 ![Imagen6](https://user-images.githubusercontent.com/55964635/147884570-7192c54b-145a-4d2c-a190-cef817c45db5.png)
 
 ![Imagen7](https://user-images.githubusercontent.com/55964635/147884662-d27a2bca-6fde-44e7-8066-96712394cfa1.png)
+
+Flags
+=====
+
+Son indicadores que establece ***automaticamente*** el procesador despues de cada operacion ***aritmetica*** o ***logica***
+
+- ***C*** (Carry) : Carry o Borroy (Suma o Resta respectivamente). Cuando son operaciones con BSS, C = 1 indica overflow
+- ***Z*** (Zero) : Es 1 si el resultado es cero
+- ***N*** (Negativo) : Es igual al bit ***mas*** significativo del resultado
+- ***V*** (Overflow) : Es 1 si hay condicion fuera de rango (o desborde). Se analiza en Ca2 independientemente del sistema de representacion que se este utilizando
+
 
 
