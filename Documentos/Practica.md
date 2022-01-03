@@ -205,6 +205,9 @@ En ese caso, lo unico que se agrega es un 0, delante de la Mantisa y se interpre
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147985969-e85741b0-208a-4382-9f05-e68ba183cd7d.png)
 
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147986290-12ce9cc8-8730-4e34-9acf-8436a4254eed.png)
 
 
 Operaciones_Aritmeticas
