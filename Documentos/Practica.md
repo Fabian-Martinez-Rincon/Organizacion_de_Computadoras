@@ -156,6 +156,13 @@ Se usa un ***exceso*** constante
 1) Se le suma el exceso
 2) Se pasa a BSS 
 
+- En un sistema de ***6*** bits ¿Qué numero representa ***000011*** en ***Ex2***?
+
+```
+Exceso = 2 ^(6-1) = 2^5 = 32
+```
+
+
 Operaciones_Aritmeticas
 =======================
 
