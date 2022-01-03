@@ -296,5 +296,27 @@ Son indicadores que establece ***automaticamente*** el procesador despues de cad
 - ***N*** (Negativo) : Es igual al bit ***mas*** significativo del resultado
 - ***V*** (Overflow) : Es 1 si hay condicion fuera de rango (o desborde). Se analiza en Ca2 independientemente del sistema de representacion que se este utilizando
 
+### Las condiciones que generan overflow son las siguiente:
 
+
+
+<table>
+<tr>
+<td> Suma </td> <td> Resta  </td>
+</tr>
+<tr>
+<td>
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147959492-82bdda88-6fc8-4a8c-b1c5-a78c0385bf54.png)
+
+  
+</td>
+<td>
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147959602-c8661054-86a5-4392-b40e-389fd25b9f24.png)
+
+ 
+</td>
+</tr>
+ </table>
 
