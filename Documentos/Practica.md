@@ -145,6 +145,16 @@ Complemento_a_2
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147887133-d7286b9b-5342-4e36-b394-8de83028d5b8.png)
 
+Exceso
+======
+
+Se usa un ***exceso*** constante
+- Para pasar un binario a decimal
+1) Se interpreta como BSS
+2) Se le resta el exceso
+- Para pasar un decimal a binario
+1) Se le suma el exceso
+2) Se pasa a BSS 
 
 Operaciones_Aritmeticas
 =======================
