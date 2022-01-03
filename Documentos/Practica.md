@@ -172,6 +172,9 @@ Exceso = 2 ^ (5 - 1) = 2^4 = 16
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147958368-8ea3deb8-93a2-417d-95b3-e2bef7ef3fdf.png)
 
+### Rango
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147887133-d7286b9b-5342-4e36-b394-8de83028d5b8.png)
 
 Operaciones_Aritmeticas
 =======================
