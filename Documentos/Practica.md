@@ -192,6 +192,10 @@ Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** 
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147984930-823c3a49-799b-49c3-93aa-767b268d1cce.png)
 
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147985285-1ceead6c-8666-4f7c-918f-566da675c76e.png)
+
 
 Operaciones_Aritmeticas
 =======================
