@@ -9,6 +9,7 @@ Indice
      * [Ca1](#Complemento_a_1)
      * [Ca2](#Complemento_a_2)
      * [Ex2](#Exceso)
+   * [Punto Flotante](#Punto_Flotante) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -176,6 +177,18 @@ Exceso = 2 ^ (5 - 1) = 2^4 = 16
 ### Rango
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147887133-d7286b9b-5342-4e36-b394-8de83028d5b8.png)
+
+Punto_Flotante
+==============
+Definicion:
+- Dividir binario en dos partes: una llamada ***Mantisa (M)*** y otra ***Exponente (E)***. (Puede terner sistemas diferentes)
+- Ahora para calcular la siguiente formula
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147984610-f4f678df-3794-4317-82db-d14695c436cc.png)
+
+B es mi base y siempre vale 2
+
+Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** ¿Que representa el ***01010011***?
 
 Operaciones_Aritmeticas
 =======================
