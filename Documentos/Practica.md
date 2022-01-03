@@ -190,6 +190,9 @@ B es mi base y siempre vale 2
 
 Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** ¿Que representa el ***01010011***?
 
+![Imagen1](https://user-images.githubusercontent.com/55964635/147984930-823c3a49-799b-49c3-93aa-767b268d1cce.png)
+
+
 Operaciones_Aritmeticas
 =======================
 
