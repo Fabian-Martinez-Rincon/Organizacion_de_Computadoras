@@ -162,6 +162,8 @@ Se usa un ***exceso*** constante
 Exceso = 2 ^(6-1) = 2^5 = 32
 ```
 
+![Imagen1](https://user-images.githubusercontent.com/55964635/147957966-197e72b1-16b7-45fe-8a83-9fc5a6a35a57.png)
+
 
 Operaciones_Aritmeticas
 =======================
