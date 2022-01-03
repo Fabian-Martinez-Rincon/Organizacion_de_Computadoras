@@ -164,6 +164,14 @@ Exceso = 2 ^(6-1) = 2^5 = 32
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147957966-197e72b1-16b7-45fe-8a83-9fc5a6a35a57.png)
 
+- Representar el ***-9*** en ***Ex2*** en un sistema de ***5*** bits
+
+```
+Exceso = 2 ^ (5 - 1) = 2^4 = 16
+```
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147958368-8ea3deb8-93a2-417d-95b3-e2bef7ef3fdf.png)
+
 
 Operaciones_Aritmeticas
 =======================
