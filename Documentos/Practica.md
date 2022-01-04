@@ -12,7 +12,7 @@ Indice
    * [Punto Flotante](#Punto_Flotante) 
      * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
      * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada)
-     * [Rango y Resolución](Rango_y_Resolucion) 
+     * [Rango y Resolución](#Rango_y_Resolucion) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
