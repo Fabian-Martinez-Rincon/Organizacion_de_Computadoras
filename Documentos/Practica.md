@@ -11,6 +11,7 @@ Indice
      * [Ex2](#Exceso)
    * [Punto Flotante](#Punto_Flotante) 
      * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
+     * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -208,6 +209,24 @@ En ese caso, lo unico que se agrega es un 0, delante de la Mantisa y se interpre
 ### Ejemplos
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147986290-12ce9cc8-8730-4e34-9acf-8436a4254eed.png)
+
+Mantisa_Fraccionaria_Normalizada
+================================
+
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148018938-6e049937-44e6-421e-9eb3-d34775673bae.png)
+
+Pensemos, si todas nuestras ***Mantisas*** comienzan con 0,1... ¿Es necesario almacenar ese  ***1***?
+
+Podria tener un bit mas en la mantisa!
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148019470-84b6de5a-3cd3-4593-9c8f-8a959c3fea89.png)
+
+Asi nace la ***Mantisa Fraccionaria Normalizada con Bit Implicito!*** Donde ***todas las mantisas*** comienzan con ***0,1***
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148019914-e37b285a-067e-49ea-ae91-807931dd5239.png)
+
 
 
 Operaciones_Aritmeticas
