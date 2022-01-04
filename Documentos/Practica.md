@@ -11,7 +11,8 @@ Indice
      * [Ex2](#Exceso)
    * [Punto Flotante](#Punto_Flotante) 
      * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
-     * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada) 
+     * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada)
+     * [Rango y Resolución](Rango_y_Resolucion) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -226,6 +227,16 @@ Podria tener un bit mas en la mantisa!
 Asi nace la ***Mantisa Fraccionaria Normalizada con Bit Implicito!*** Donde ***todas las mantisas*** comienzan con ***0,1***
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/148019914-e37b285a-067e-49ea-ae91-807931dd5239.png)
+
+Rango_y_Resolucion
+==================
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148021512-ea2bc6c5-9ed4-4c63-9ab4-056e5d0b09fe.png)
+
+Si mi sistema de representacion tiene ***N*** bits.
+
+- Puedo representar ***2^N*** numeros (igual que en Punto Fijo!)
+- El ***rango va a ser [Minimo ; Maximo positivo]***
 
 
 
