@@ -260,6 +260,28 @@ Ejemplo: 5 bits de mantisa BSS y 3 de exponente BCS
 Rango : [0 ; 248]
 ```
 
+### Numero con signo
+
+```
+Ejemplo: 5 bits de mantisa BCS y 3 de exponente BCS
+```
+
+***Minimo Negativo***
+
+- Mantisa Minima Negativa 11111 (-15)
+- Exponente Maximo Positivo 111 (7)
+- Resultado ```-15 * 2 ^ 7 = -15 * 128 = -1920 ```
+
+***Maximo Positivo***
+
+- Mantisa Maxima Positiva 01111 (15)
+- Exponente Maximo Positivo 111 (7)
+- Resultado ```15 * 2 ^ 7 = 15 * 128 = 1920 ```
+
+```
+Rango : [0 ; 248]
+```
+
 Operaciones_Aritmeticas
 =======================
 
