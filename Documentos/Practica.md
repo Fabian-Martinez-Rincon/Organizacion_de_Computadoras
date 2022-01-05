@@ -9,11 +9,11 @@ Indice
      * [Ca1](#Complemento_a_1)
      * [Ca2](#Complemento_a_2)
      * [Ex2](#Exceso)
+     * [Rango y Resolución](#Rango_y_Resolucion) 
    * [Punto Flotante](#Punto_Flotante) 
      * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
      * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada)
-     * [Rango y Resolución](#Rango_y_Resolucion) 
-       * [Punto Flotante](#Punto_Flotante) 
+     * [Rango y Resolución](#Rango_y_Resolucion2) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -182,56 +182,8 @@ Exceso = 2 ^ (5 - 1) = 2^4 = 16
 
 ![Imagen1](https://user-images.githubusercontent.com/55964635/147887133-d7286b9b-5342-4e36-b394-8de83028d5b8.png)
 
-Punto_Flotante
-==============
-Definicion:
-- Dividir binario en dos partes: una llamada ***Mantisa (M)*** y otra ***Exponente (E)***. (Puede terner sistemas diferentes)
-- Ahora para calcular la siguiente formula
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/147984610-f4f678df-3794-4317-82db-d14695c436cc.png)
-
-B es mi base y siempre vale 2
-
-Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** ¿Que representa el ***01010011***?
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/147984930-823c3a49-799b-49c3-93aa-767b268d1cce.png)
-
-### Ejemplos
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/147985285-1ceead6c-8666-4f7c-918f-566da675c76e.png)
-
-Mantisa_Fraccionaria
---------------------
-Puede ser posible que la mantisa sea fraccionaria.
-
-En ese caso, lo unico que se agrega es un 0, delante de la Mantisa y se interpreta como binario fraccionario
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/147985969-e85741b0-208a-4382-9f05-e68ba183cd7d.png)
-
-### Ejemplos
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/147986290-12ce9cc8-8730-4e34-9acf-8436a4254eed.png)
-
-Mantisa_Fraccionaria_Normalizada
-================================
-
-### Ejemplos
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/148018938-6e049937-44e6-421e-9eb3-d34775673bae.png)
-
-Pensemos, si todas nuestras ***Mantisas*** comienzan con 0,1... ¿Es necesario almacenar ese  ***1***?
-
-Podria tener un bit mas en la mantisa!
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/148019470-84b6de5a-3cd3-4593-9c8f-8a959c3fea89.png)
-
-Asi nace la ***Mantisa Fraccionaria Normalizada con Bit Implicito!*** Donde ***todas las mantisas*** comienzan con ***0,1***
-
-![Imagen1](https://user-images.githubusercontent.com/55964635/148019914-e37b285a-067e-49ea-ae91-807931dd5239.png)
-
 Rango_y_Resolucion
 ==================
-
 ![Imagen1](https://user-images.githubusercontent.com/55964635/148021512-ea2bc6c5-9ed4-4c63-9ab4-056e5d0b09fe.png)
 
 Si mi sistema de representacion tiene ***N*** bits.
@@ -284,7 +236,55 @@ Rango : [-1920 ; 1920]
 ```
 
 Punto_Flotante
---------------
+==============
+Definicion:
+- Dividir binario en dos partes: una llamada ***Mantisa (M)*** y otra ***Exponente (E)***. (Puede terner sistemas diferentes)
+- Ahora para calcular la siguiente formula
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147984610-f4f678df-3794-4317-82db-d14695c436cc.png)
+
+B es mi base y siempre vale 2
+
+Sistema 5 bits de ***Mantisa*** y 3 bits de ***Exponente***, ambos en ***BSS*** ¿Que representa el ***01010011***?
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147984930-823c3a49-799b-49c3-93aa-767b268d1cce.png)
+
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147985285-1ceead6c-8666-4f7c-918f-566da675c76e.png)
+
+Mantisa_Fraccionaria
+--------------------
+Puede ser posible que la mantisa sea fraccionaria.
+
+En ese caso, lo unico que se agrega es un 0, delante de la Mantisa y se interpreta como binario fraccionario
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147985969-e85741b0-208a-4382-9f05-e68ba183cd7d.png)
+
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/147986290-12ce9cc8-8730-4e34-9acf-8436a4254eed.png)
+
+Mantisa_Fraccionaria_Normalizada
+================================
+
+### Ejemplos
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148018938-6e049937-44e6-421e-9eb3-d34775673bae.png)
+
+Pensemos, si todas nuestras ***Mantisas*** comienzan con 0,1... ¿Es necesario almacenar ese  ***1***?
+
+Podria tener un bit mas en la mantisa!
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148019470-84b6de5a-3cd3-4593-9c8f-8a959c3fea89.png)
+
+Asi nace la ***Mantisa Fraccionaria Normalizada con Bit Implicito!*** Donde ***todas las mantisas*** comienzan con ***0,1***
+
+![Imagen1](https://user-images.githubusercontent.com/55964635/148019914-e37b285a-067e-49ea-ae91-807931dd5239.png)
+
+Rango_y_Resolucion2
+===================
+
 A diferencia del Punto fijo, la resolucion en Punto Flotante cambia a lo largo de la linea!
 
 Pero sigue siendo la misma formula. La resta de dos numeros consecutivos. En este caso, de ***las Mantisas***
@@ -308,6 +308,9 @@ Resolucion en el ***Extremo Superior Pisitivo***: necesito Mantisas ***Maximas P
 - Mantisa ***Maxima Positiva*** 01111
 - Mantisa anterior 01110
 - Resolucion: ```(01111-01110) - 2^3 = 1 * 2 ^ 3 = 8```
+
+Representacion
+--------------
 
 Operaciones_Aritmeticas
 =======================
