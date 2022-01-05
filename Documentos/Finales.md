@@ -4,4 +4,6 @@ A) determine el valor decimal representado.
 
 B) calculo el error absoluto maximo. 
 
-```2)```a) que es un circuito combinatorio? 
+```2)```A) que es un circuito combinatorio? 
+
+B) describa el circuito logico denominado "sumador completó" realice la tabla de verdad y un grafico de interconexión de puertas logicas que lo represente. 
