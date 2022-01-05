@@ -1,6 +1,7 @@
 <h1 align="center">Organización de Computadoras </h1>
 
 [Practica](/Documentos/Practica.md)
+
 [Finales](/Documentos/Finales.md)
 
 ### Registros
