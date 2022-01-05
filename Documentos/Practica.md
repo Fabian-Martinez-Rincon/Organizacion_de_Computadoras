@@ -302,6 +302,13 @@ Resolución en el ***Extremo inferior Positivo***: necesito Mantisas ***Minimas 
 - Mantisa anterior 00001
 - Resolución: ```(00001 - 00000) * 2^(-3) = 1 * 2^(-3) = 0,125```
 
+Resolucion en el ***Extremo Superior Pisitivo***: necesito Mantisas ***Maximas Positivas*** y un Exponente ***Maximo Positivo***
+
+- Exponente ***Maximo Positivo***: 011 (3)
+- Mantisa ***Maxima Positiva*** 01111
+- Mantisa anterior 01110
+- Resolucion: ```(01111-01110) - 2^3 = 1 * 2 ^ 3 = 8```
+
 Operaciones_Aritmeticas
 =======================
 
