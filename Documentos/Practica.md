@@ -238,6 +238,14 @@ Si mi sistema de representacion tiene ***N*** bits.
 - Puedo representar ***2^N*** numeros (igual que en Punto Fijo!)
 - El ***rango va a ser [Minimo ; Maximo positivo]***
 
+### Numero sin signo
+
+```
+```
+
+Minimo
+- Mantisa Minima Positiva 0
+- Exponente Minimo negativo
 
 
 Operaciones_Aritmeticas
