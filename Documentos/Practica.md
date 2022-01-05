@@ -13,6 +13,7 @@ Indice
      * [Mantisa Fraccionaria](#Mantisa_Fraccionaria) 
      * [Mantisa Fraccionaria Normalizada](#Mantisa_Fraccionaria_Normalizada)
      * [Rango y Resolución](#Rango_y_Resolucion) 
+       * [Punto Flotante](#Punto_Flotante) 
    * [Operaciones Aritmeticas](#Operaciones_Aritmeticas)
      * [Suma](#Suma)
      * [Resta](#Resta) 
@@ -287,6 +288,19 @@ Punto_Flotante
 A diferencia del Punto fijo, la resolucion en Punto Flotante cambia a lo largo de la linea!
 
 Pero sigue siendo la misma formula. La resta de dos numeros consecutivos. En este caso, de ***las Mantisas***
+
+### Resolucion
+
+```
+Ejemplo: 5 bits de mantisa BCS y 3 de exponente BCS
+```
+
+Resolución en el ***Extremo inferior Positivo***: necesito Mantisas ***Minimas Positivas*** y un Exponente ***Minimo Negativo***
+
+- Exponente Minimo Negativo : 111 (-3)
+- Mantisa Minima Positiva 00000
+- Mantisa anterior 00001
+- Resolución: ```(00001 - 00000) * 2^(-3) = 1 * 2^(-3) = 0,125```
 
 Operaciones_Aritmeticas
 =======================
