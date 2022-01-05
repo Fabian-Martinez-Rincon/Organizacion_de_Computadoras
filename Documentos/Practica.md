@@ -241,12 +241,24 @@ Si mi sistema de representacion tiene ***N*** bits.
 ### Numero sin signo
 
 ```
+Ejemplo: 5 bits de mantisa BSS y 3 de exponente BCS
 ```
 
-Minimo
-- Mantisa Minima Positiva 0
-- Exponente Minimo negativo
+***Minimo***
 
+- Mantisa Minima Positiva 00000 (0)
+- Exponente Minimo negativo 111 (-3)
+- Resultado ```0 * 2^(-3) = 0 ```
+
+***Maximo Positivo***
+
+- Mantisa Maxima Positiva 11111 (31)
+- Exponente Maximo Positivo 011 (3)
+- Resultado ```31 * 2 ^ 3 = 31 * 8 = 248 ```
+
+```
+Rango : [0 ; 248]
+```
 
 Operaciones_Aritmeticas
 =======================
