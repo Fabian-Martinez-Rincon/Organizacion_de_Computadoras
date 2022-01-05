@@ -279,7 +279,7 @@ Ejemplo: 5 bits de mantisa BCS y 3 de exponente BCS
 - Resultado ```15 * 2 ^ 7 = 15 * 128 = 1920 ```
 
 ```
-Rango : [0 ; 248]
+Rango : [-1920 ; 1920]
 ```
 
 Operaciones_Aritmeticas
