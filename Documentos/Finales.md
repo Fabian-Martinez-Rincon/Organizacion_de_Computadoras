@@ -7,3 +7,7 @@ B) calculo el error absoluto maximo.
 ```2)```A) que es un circuito combinatorio? 
 
 B) describa el circuito logico denominado "sumador completó" realice la tabla de verdad y un grafico de interconexión de puertas logicas que lo represente. 
+
+ ```3)```A) porque el msx88 simula una maquina de 2 direcciónes?
+ 
+ B) Describa el funcionamiento del modo de direcciónamiento indirecto via registro cin desplazamiento. 
