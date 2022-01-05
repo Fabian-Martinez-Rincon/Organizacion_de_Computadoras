@@ -282,6 +282,12 @@ Ejemplo: 5 bits de mantisa BCS y 3 de exponente BCS
 Rango : [-1920 ; 1920]
 ```
 
+Punto_Flotante
+--------------
+A diferencia del Punto fijo, la resolucion en Punto Flotante cambia a lo largo de la linea!
+
+Pero sigue siendo la misma formula. La resta de dos numeros consecutivos. En este caso, de ***las Mantisas***
+
 Operaciones_Aritmeticas
 =======================
 
