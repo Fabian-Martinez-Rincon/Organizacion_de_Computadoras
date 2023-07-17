@@ -35,10 +35,16 @@
   - <details><summary> Sin error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fdd16909-781d-44c6-8d09-199b0616fcec'></details>
   - <details><summary> Con error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7a0417dd-e2e9-4894-8bd5-62a17022dc0b'></details>
 - **Operaciones aritméticas** Suma con carry, resta con borrow
-- **Bits de Condición**
-
-
-
+- **Bits de Condición** Valores acorde a una operación realizada
+- **Banderas Aritméticas**
+  - **Z**(cero) 1 si el resultado es cero
+  - **C**(carry) 1 si hubo acarreo en la suma y 1 si hubo borrow en la resta.
+- **Sistema Hexadecimal**
+- **BCH** Sistema Hexadecimal Codificado en Binario (4 bits por dígito)
+- **BCD** Sistema Decimal Codificado en Binario (4 bits por dígito)
+  - Se asocia cada digito a su valor en binario puro
+  - **Desempaquetado** E/S y Perifericos (1 digito, 1 byte = 8 bits)
+  - **Empaquetado** Calculo (1 digitos, 4 bits)
 
 ## 🏁 Clase 2 Operaciones y Flags
 
