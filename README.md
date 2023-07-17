@@ -1,8 +1,9 @@
 <h1 align="center">Organización de Computadoras </h1>
 
-[Practica](/Documentos/Practica.md)
+- [Practica](/Documentos/Practica.md)
+- [Finales](/Documentos/Finales.md)
 
-[Finales](/Documentos/Finales.md)
+<details> <summary> resumen assembly </summary>
 
 ### Registros
 ***Ax*** (Acumulador): empleado para operaciones aritméticas de cualquier tipo. También es usado en  las instrucciones de entrada y salida y en la manipulación de cadenas de caracteres.
@@ -122,3 +123,4 @@ ORG 2000H
 END
 
 ```
+</details>
