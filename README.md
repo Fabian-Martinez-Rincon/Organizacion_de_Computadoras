@@ -54,24 +54,45 @@
 #### **Empaquetado** Calculo (1 digitos, 4 bits)
 
 <details><summary> Con signo Positivo (+) y Negativo (-) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c5a3b449-67aa-43ab-b12d-b09e1974ed32'></details>
-    
+
+---
 
 ## 🏁 Clase 2 Operaciones y Flags
 
+---
+
 ## 📙 Clase 3 Punto Flotante
+
+---
 
 ## 📕 Clase 4 Circuitos Logicos
 
+---
+
 ## 📓 Clase 5 Arquitectura
+
+---
 
 ## 📔 Clase 6 Ciclo de instrucción
 
+---
+
 ## Clase 7 Formato de Direccionamiento
+
+---
 
 ## Clase 8 Registros
 
+---
+
 ## Clase 9 Memoria
+
+---
 
 ## Clase 10 Memoria Caché
 
+---
+
 ## Clase 11 Perifericos Leídos
+
+---
