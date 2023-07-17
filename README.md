@@ -42,9 +42,14 @@
 - **Sistema Hexadecimal**
 - **BCH** Sistema Hexadecimal Codificado en Binario (4 bits por dígito)
 - **BCD** Sistema Decimal Codificado en Binario (4 bits por dígito)
-  - Se asocia cada digito a su valor en binario puro
+  - Se asocia cada digito a su valor en binario puro y tiene dos ambitos de aplicación
   - **Desempaquetado** E/S y Perifericos (1 digito, 1 byte = 8 bits)
+    - <details><summary> Sin signo </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/2c10001d-9991-47c2-8215-79dfe58ab869'></details>
+    - <details><summary> Con signo Positivo (+) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/d17f71ca-83c0-44cc-976a-9931671956f9'></details>
+    - <details><summary> Con signo Negativo (-)</summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b2a9428d-c645-4bee-a7fc-36479fb46ea5'></details>
   - **Empaquetado** Calculo (1 digitos, 4 bits)
+    - <details><summary> Con signo Positivo (+) y Negativo (-) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c5a3b449-67aa-43ab-b12d-b09e1974ed32'></details>
+    
 
 ## 🏁 Clase 2 Operaciones y Flags
 
