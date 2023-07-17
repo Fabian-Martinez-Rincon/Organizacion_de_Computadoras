@@ -5,7 +5,9 @@
 - [Resumen Assembly](/Documentos/resumenAssembly.md)
 
 ## 📘 Clase 1 Numeros Sin Signo
-- **Representación de Datos** Dispositivos en dos estados posibles 1 o 0
+
+**Representación de Datos** Dispositivos en dos estados posibles 1 o 0
+
 #### **Tipos de Datos** 
 La computadora maneja 4 tipos de datos básicos de datos binarios
   - Numeros Enteros sin/con signo
