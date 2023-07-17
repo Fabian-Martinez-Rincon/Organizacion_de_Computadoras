@@ -47,15 +47,15 @@ La computadora maneja 4 tipos de datos básicos de datos binarios
 
 
 
-## Clase 2 Operaciones y Flags
+## 🏁 Clase 2 Operaciones y Flags
 
-## Clase 3 Punto Flotante
+## 📙 Clase 3 Punto Flotante
 
-## Clase 4 Circuitos Logicos
+## 📕 Clase 4 Circuitos Logicos
 
-## Clase 5 Arquitectura
+## 📓 Clase 5 Arquitectura
 
-## Clase 6 Ciclo de instrucción
+## 📔 Clase 6 Ciclo de instrucción
 
 ## Clase 7 Formato de Direccionamiento
 
