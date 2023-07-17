@@ -41,20 +41,38 @@
   - **C**(carry) 1 si hubo acarreo en la suma y 1 si hubo borrow en la resta.
 - **Sistema Hexadecimal**
 - **BCH** Sistema Hexadecimal Codificado en Binario (4 bits por dígito)
-- **BCD** Sistema Decimal Codificado en Binario (4 bits por dígito)
-  - Se asocia cada digito a su valor en binario puro y tiene dos ambitos de aplicación
-  - **Desempaquetado** E/S y Perifericos (1 digito, 1 byte = 8 bits)
-    - <details><summary> Sin signo </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/2c10001d-9991-47c2-8215-79dfe58ab869'></details>
-    - <details><summary> Con signo Positivo (+) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/d17f71ca-83c0-44cc-976a-9931671956f9'></details>
-    - <details><summary> Con signo Negativo (-)</summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b2a9428d-c645-4bee-a7fc-36479fb46ea5'></details>
-  - **Empaquetado** Calculo (1 digitos, 4 bits)
-    - <details><summary> Con signo Positivo (+) y Negativo (-) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c5a3b449-67aa-43ab-b12d-b09e1974ed32'></details>
-  - **Suma en BCD**
-    - <details><summary> la suma es ≤ 9 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/a5163906-6e37-4b7b-af62-55fd3ad817b4'></details>
-    - <details><summary> la suma es > 9 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/41bdd21c-5db9-4d9a-99d5-b58b9934e163'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/80b29439-89fd-477d-a717-0bb75073d2a3'></details>
-    - <details><summary> Otro Ejemplo suma es > 9 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/5acf0f3a-2540-48fc-9d2b-69954a1e34ce'></details>
+
+**BCD** Sistema Decimal Codificado en Binario (4 bits por dígito)
+Se asocia cada digito a su valor en binario puro y tiene dos ambitos de aplicación
+
+**Desempaquetado** E/S y Perifericos (1 digito, 1 byte = 8 bits)
+
+<details><summary> Sin signo </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/2c10001d-9991-47c2-8215-79dfe58ab869'></details>
+
+<details><summary> Con signo Positivo (+) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/d17f71ca-83c0-44cc-976a-9931671956f9'></details>
+
+<details><summary> Con signo Negativo (-)</summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b2a9428d-c645-4bee-a7fc-36479fb46ea5'></details>
+
+**Empaquetado** Calculo (1 digitos, 4 bits)
+
+<details><summary> Con signo Positivo (+) y Negativo (-) </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c5a3b449-67aa-43ab-b12d-b09e1974ed32'></details>
+  
+**Suma en BCD**
+
+<details><summary> la suma es ≤ 9 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/a5163906-6e37-4b7b-af62-55fd3ad817b4'></details>
+
+<details><summary> la suma es > 9 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/41bdd21c-5db9-4d9a-99d5-b58b9934e163'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/80b29439-89fd-477d-a717-0bb75073d2a3'></details>
+
+<details><summary> Otro Ejemplo suma es > 9 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/5acf0f3a-2540-48fc-9d2b-69954a1e34ce'></details>
 
 - El Nivel de Logica Digital
+  - **AND** (Y) 1 si ambos son 1 y 0 en cualquier otro caso
+  - **OR** (O) 1 si alguno es 1 y 0 en cualquier otro caso
+  - **NOT** (NO) 1 si es 0 y 0 si es 1
+  - **NAND** (NO Y) 0 si ambos son 1 y 1 en cualquier otro caso
+  - **NOR** (NO O) 0 si alguno es 1 y 1 en cualquier otro caso
+  - **XOR** (O exclusivo) 1 si son diferentes y 0 si son iguales
+
 
 ---
 
