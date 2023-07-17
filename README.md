@@ -32,10 +32,8 @@
 - **Representación y error**
   - Sin restricción en la cantidad de bits
   - Con restricción en al cantidad de bits
-  - <details><summary> Sin error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fdd16909-781d-44c6-8d09-199b0616fcec'>
-    </details>
-  - <details><summary> Con error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7a0417dd-e2e9-4894-8bd5-62a17022dc0b'>
-    </details>
+  - <details><summary> Sin error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fdd16909-781d-44c6-8d09-199b0616fcec'></details>
+  - <details><summary> Con error </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7a0417dd-e2e9-4894-8bd5-62a17022dc0b'></details>
 - **Operaciones aritméticas** Suma con carry, resta con borrow
 - **Bits de Condición**
 
