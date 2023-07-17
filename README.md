@@ -124,3 +124,25 @@ END
 
 ```
 </details>
+
+## Clase 1 Numeros Sin Signo
+
+## Clase 2 Operaciones y Flags
+
+## Clase 3 Punto Flotante
+
+## Clase 4 Circuitos Logicos
+
+## Clase 5 Arquitectura
+
+## Clase 6 Ciclo de instrucción
+
+## Clase 7 Formato de Direccionamiento
+
+## Clase 8 Registros
+
+## Clase 9 Memoria
+
+## Clase 10 Memoria Caché
+
+## Clase 11 Perifericos Leídos
