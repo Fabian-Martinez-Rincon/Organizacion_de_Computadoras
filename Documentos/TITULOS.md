@@ -1,0 +1,51 @@
+## 🏁 Clase 2 Operaciones y Flags
+
+- **Representación en BCS** intervalo es simétrico y 2^n números distintos
+  - El primer bit sólo indica el signo (0 positivo, 1 negativo)
+  - Rango -(2^n-1 - 1), +(2^n-1 - 1) con 2 ceros
+  - <details> <summary> Ejemplo de representación </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/12635a56-c631-4180-88e1-8bbabba5ef4a'> </details>
+- Técnica de Complementos
+  - **Complemento a N** de A = N - A
+  - **Complemento a N** de (N-A) = N - (N-A) = A
+  - **Si N = base^n - 1** El sistema binario es Ca1
+  - **Si N = base^n** El sistema binario es Ca2
+- **Representación en Ca1** intervalo es simétrico y 2^n números distintos
+  - El primer bit sólo indica el signo (0 positivo, 1 negativo)
+  - Rango -(2^n-1 - 1), +(2^n-1 - 1) con 2 ceros
+  - En binario se invierten todos sus bits
+  - <details> <summary> Ejemplo decimal a binario </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/419e6fdd-9928-407a-8c89-38d89659f2b6'> </details>
+  - <details> <summary> Ejemplo binario a decimal</summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c482a65e-bd7f-42a4-a1dc-3f9b3b904828'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/5a2bde89-0061-4d30-ae85-7f608196d18f'></details>
+- **Representación en Ca2** intervalo es asimetrico y 2^n números distintos
+  - Tenemos un negativo más
+  - En binario se invierten todos sus bits y se le suma 1
+  - -(2^n-1) a +(2^n-1 - 1) Solo hay un cero
+  - <details> <summary> Ejemplo decimal a binario </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/09232eb0-35fa-4d2d-87e1-7d6d582477fa'> </details>
+  - <details> <summary> Ejemplo binario a decimal</summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/f9b2b43a-7456-4504-af71-7307dd5dfd85'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/aea80d11-1dea-4708-9df5-0df99dde8812'></details>
+- **Técnica de Exceso**
+  - Exceso E de A = A + E 
+  - A = (Exceso E de A) - E
+- **Exceso 2^n-1**
+  - **Rango** -2(n-1) <= x <= 2(n-1)-1
+  - <details> <summary> Ejemplo </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/9c7d3928-333d-493a-9f99-0886ed043273'> </details>
+- **Nuevas Banderas aritméticas**
+  - **N (Negativo)** Es 1 si el resultado es negativo
+  - **V (Overflow)** El 1 indica una condición de fuera de rango (desborde) en Ca2
+    - **Para sumar dos números en Ca2** se suman los n bits directamente.
+      - Si sumamos dos números + y el resultado es –. Ej en decimal 127 + 1 = -128
+      - Si sumamos dos números – y el resultado es +. Ej en decimal -128 + -1 = 127
+      - <details> <summary> Ejemplo 1 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/01ff1fc5-0e5e-4ffd-9ddc-5aa35affa855'> </details>
+      - <details> <summary> Ejemplo 2 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/a7d9d791-4394-427f-8533-57cd114872b9'> </details>
+    - Si son de distinto signo no puede haber overflow
+    - **Para restar dos números en Ca2** se restan los n bits directamente. 
+      - Si a un número + le restamos un número - y el resultado es –.Ej en decimal 127 - -128 = -1
+      - Si a un número - le restamos un número + y el resultado es +.Ej en decimal -127 - 128 = 1
+      - <details> <summary> Ejemplo 1 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/7428fe1d-66de-4d86-ba4c-5221e5f11fca'> </details>
+      - <details> <summary> Ejemplo 2 </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/ec8e6cf5-4715-4357-af3b-5370318693b2'> </details>
+    - Si son de igual signo no puede haber overflow
+- Representación Alfanumerica
+  - **Letras** (mayúsculas y minúsculas)
+  - **Dígitos decimales** (0, ..., 9)
+  - **Signos de puntuación**
+  - **Caracteres especiales**
+  - **Caracteres** u órdenes de control
+- Los unicos dos sistemas que sumo directamente son BSS y CA2
