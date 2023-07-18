@@ -72,45 +72,23 @@
 - **Circuitos Combinados**
   - <details> <summary> Semi-Sumador </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/c01e34e1-484c-4e44-8b68-7d75701be716'> </details>
 
-
----
-
 ## 🏁 Clase 2 Operaciones y Flags
-
----
 
 ## 📙 Clase 3 Punto Flotante
 
----
-
 ## 📕 Clase 4 Circuitos Logicos
 
----
-
-## 📓 Clase 5 Arquitectura
-
----
+## 📁 Clase 5 Arquitectura
 
 ## 📔 Clase 6 Ciclo de instrucción
 
----
+## 📎 Clase 7 Formato de Direccionamiento
 
-## Clase 7 Formato de Direccionamiento
+## 🗃️ Clase 8 Registros
 
----
+## 💾 Clase 9 Memoria
 
-## Clase 8 Registros
+## 💽 Clase 10 Memoria Caché
 
----
+## ⌨️ Clase 11 Perifericos Leídos
 
-## Clase 9 Memoria
-
----
-
-## Clase 10 Memoria Caché
-
----
-
-## Clase 11 Perifericos Leídos
-
----
