@@ -126,19 +126,29 @@
 
 ## 📙 Clase 3 Punto Flotante
 
-## 📕 Clase 4 Circuitos Logicos
+- Números en punto flotante
+  - Limitaciones: "números muy grandes y números muy pequeños".
+  - **976.000.000.000.000** -> 9,76 x 10^14
+  - **0,0000000000000976** -> 9,76 x 10^-14
+  - Se representa como M * B^E
+  - **M** es la mantisa, **B** es la base, **E** es el exponente
+  - La M y E estan representados en BSS, BCS, Ca2, Ca1, Exceso
+  - <details><summary> Ejemplo </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/ba4e6d70-ea76-498a-919a-6b7acb6395ff'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/bc44d28a-76c6-4bb5-b12e-5aa519a8a094'></details>
+  - <details><summary>Ejemplo 2 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/deae34ac-bb98-41ee-8c08-d8d237ccd156'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></details>
+- **Comparación**
+  - El rango en punto flotante es mayor
+  - La cantidad de combinaciones binarias distintas es la misma en ambos sistemas 2^8 = 256
+  - En punto flotante la resolución no es constante a lo largo del intervalo, como lo es en el segundo ejemplo.
+- Conclusión
+- Podemos representar números más grandes ó más pequeños que en un sistema de punto fijo (para igual cantidad de bits), pero pagamos el precio que los Nos no están igualmente espaciados, como en punto fijo.
+- <details><summary>Mantisa y Exponente en Ca2</summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/19227a87-f9fc-4387-ba53-566d0af59b76'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'> </details>
+- Mantisa Fraccionaria
+- Formato final
 
-## 📁 Clase 5 Arquitectura
 
-## 📔 Clase 6 Ciclo de instrucción
 
-## 📎 Clase 7 Formato de Direccionamiento
-
-## 🗃️ Clase 8 Registros
-
-## 💾 Clase 9 Memoria
-
-## 💽 Clase 10 Memoria Caché
-
-## ⌨️ Clase 11 Perifericos Leídos
-
+- Normalización
+- Bit Implicito
+- Recta Numerica
+- ¿Cómo se escribe un No en punto flotante normalizado?
+- Resolución - Error absoluto
