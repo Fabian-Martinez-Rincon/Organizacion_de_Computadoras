@@ -133,16 +133,15 @@
   - Se representa como M * B^E
   - **M** es la mantisa, **B** es la base, **E** es el exponente
   - La M y E estan representados en BSS, BCS, Ca2, Ca1, Exceso
-  - <details><summary> Ejemplo </summary> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/ba4e6d70-ea76-498a-919a-6b7acb6395ff'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/bc44d28a-76c6-4bb5-b12e-5aa519a8a094'></details>
-  - <details><summary>Ejemplo 2 </summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/deae34ac-bb98-41ee-8c08-d8d237ccd156'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></details>
+  - <details><summary> Ejemplos </summary> <table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/ba4e6d70-ea76-498a-919a-6b7acb6395ff'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/bc44d28a-76c6-4bb5-b12e-5aa519a8a094'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/deae34ac-bb98-41ee-8c08-d8d237ccd156'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></td></table></details>
 - **Comparación**
   - El rango en punto flotante es mayor
   - La cantidad de combinaciones binarias distintas es la misma en ambos sistemas 2^8 = 256
   - En punto flotante la resolución no es constante a lo largo del intervalo, como lo es en el segundo ejemplo.
-- Conclusión
-- Podemos representar números más grandes ó más pequeños que en un sistema de punto fijo (para igual cantidad de bits), pero pagamos el precio que los Nos no están igualmente espaciados, como en punto fijo.
-- <details><summary>Mantisa y Exponente en Ca2</summary><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/19227a87-f9fc-4387-ba53-566d0af59b76'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'> </details>
-- Mantisa Fraccionaria
+- **Conclusión**
+  - Podemos representar números más grandes ó más pequeños que en un sistema de punto fijo (para igual cantidad de bits), pero pagamos el precio que los Nos no están igualmente espaciados, como en punto fijo.
+- <details><summary>Mantisa y Exponente en Ca2</summary><table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/19227a87-f9fc-4387-ba53-566d0af59b76'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></td></table> </details>
+- <details><summary> Mantisa Fraccionaria </summary> <table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/1e9d768d-fb8d-4840-8eb5-6cde95a94c7c'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b54a25c7-4d3c-4d20-b5a6-566f23c1a1f3'></td></table></details></details>
 - Formato final
 
 
