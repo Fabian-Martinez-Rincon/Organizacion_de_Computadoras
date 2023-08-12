@@ -4,7 +4,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)](https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras/stargazers/)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)](https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)
 
-🖥️ Organización de Computadoras 
+
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=1200&pause=1000&color=F7F123&center=true&width=535&lines=Organización de Computadoras"/>
 
 </h1>
 
