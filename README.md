@@ -1,4 +1,16 @@
-# 🖥️ Organización de Computadoras
+<h1 align="center"> 
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)
+[![GitHub stars](https://img.shields.io/github/stars/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)](https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras/stargazers/)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)](https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras)
+
+🖥️ Organización de Computadoras 
+
+</h1>
+
+<a title="" href="https://cafecito.app/ei-materias"><img src="/Documentos/Cafecito.png" alt="" /></a>
+
+***Practicas resueltas Junto con teorias***
 
 - [Practica](/Documentos/Practica.md)
 - [Finales](/Documentos/Finales.md)
@@ -143,12 +155,13 @@
 - <details><summary>Mantisa y Exponente en Ca2</summary><table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/19227a87-f9fc-4387-ba53-566d0af59b76'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></td></table> </details>
 - <details><summary> Mantisa Fraccionaria </summary> <table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/1e9d768d-fb8d-4840-8eb5-6cde95a94c7c'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b54a25c7-4d3c-4d20-b5a6-566f23c1a1f3'></td></table></details>
 - <details><summary><b>Formato final</b> El formato anterior se puede representar</summary><img src='https://github.com/Fabian-Martinez-Rincon/Working/assets/55964635/7532b61b-080d-4e30-a750-e68cc286132c'></details>
-- Normalización
+- **Normalización**
   - Por ejemplo 40x10^0 = 4x10^1 = 0,4x10^2 = 400x10^-1
   - Existen distintos valores de mantisa y exponente para representar un mismo número.
   - Con el objetivo de tener un único par de valores de mantisa y exponente para un número, se introduce la normalización.
-  - <details><summary> Ejemplos </summary> <table><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/ba4e6d70-ea76-498a-919a-6b7acb6395ff'> <img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/bc44d28a-76c6-4bb5-b12e-5aa519a8a094'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/deae34ac-bb98-41ee-8c08-d8d237ccd156'><img src='https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/729ac248-41f8-47e0-b56f-81f67b31b1d2'></td></table></details>
+  - <details><summary> Ejemplos </summary> <table><td><img src='https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras/assets/55964635/2b0b05b8-afe2-472d-b296-91038e9942ec'></td><td><img src='https://github.com/Fabian-Martinez-Rincon/Organizacion_de_Computadoras/assets/55964635/367494b9-953b-4daf-b8e7-726af3e250b5'></td></table></details>
 - Bit Implicito
 - Recta Numerica
 - ¿Cómo se escribe un No en punto flotante normalizado?
 - Resolución - Error absoluto
+- Estándar IEEE 754
