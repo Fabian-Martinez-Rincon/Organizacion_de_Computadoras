@@ -4,7 +4,7 @@
 
 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=1200&pause=1000&color=F7F123&center=true&width=585&lines=🖥️ Organización de Computadoras"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2700&pause=800&color=F7F123&center=true&width=565&lines=🤖 Organización de Computadoras"/>
 
 ---
 
@@ -4575,7 +4575,4 @@ Esto es un ejemplo para ver el maximo anterior y lo demas continua en la siguien
 ![image](https://github.com/user-attachments/assets/76056776-892c-4e47-9e86-070cf6cf3315)
 
 
-
-
-
-
+---
